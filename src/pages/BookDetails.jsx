@@ -8,7 +8,7 @@ const BookDetails = () => {
 
   return (
     <div className="flex">
-      <img src={book.image} alt={book.bookName} className="w-1/2" />
+      <img src={book.image} alt={book.bookName} className="w-1/2"/>
       <div className="ml-6">
         <h2 className="text-3xl font-bold">{book.bookName}</h2>
         <p>Author: {book.author}</p>
