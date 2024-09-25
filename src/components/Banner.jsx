@@ -8,7 +8,7 @@ const Banner = () => {
         {/* <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Buy Book</button> */}
       </div>
       <img
-        src="./../../src/components/image/ban.jpg" alt="Ban" className="w-1/2 h-72" />
+        src="./../assets/ban.jpg" alt="Ban" className="w-1/2 h-72" />
     </div>
   );
 };
