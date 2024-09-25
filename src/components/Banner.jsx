@@ -1,4 +1,5 @@
 // src/components/Banner.jsx
+import tmg from './../assets/ban.jpg';
 const Banner = () => {
   return (
     <div className="flex items-center justify-between bg-gray-100 p-6">
@@ -8,7 +9,7 @@ const Banner = () => {
         {/* <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Buy Book</button> */}
       </div>
       <img
-        src="./../assets/ban.jpg" alt="Ban" className="w-1/2 h-72" />
+        src={tmg} alt="Ban" className="w-1/2 h-72" />
     </div>
   );
 };
